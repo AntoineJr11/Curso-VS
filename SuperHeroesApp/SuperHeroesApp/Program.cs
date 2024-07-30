@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Text;
+
 Console.WriteLine("Hello, World!");
 
 SuperPoder PoderVolar = new SuperPoder();
@@ -18,13 +20,7 @@ Artesmarciales.descripcion = "habilidad de pelear";
 Artesmarciales.Nivel = NivelPoder.Nivel1;
 
 
-SuperHeroe superman = new SuperHeroe();
-superman.Id = 1;
-superman.Nombre = "Superman";
-superman.IdentidadSecreta = "Clark Kent";
-superman.Ciudad = "Gotica";
-superman.PuedeVolar = true;
-superman.SuperPoderes = new[] { "Vision de rayos x", "super Fuerza", "PoderVolar" };
+
 
 
 
@@ -34,7 +30,9 @@ Batman.Nombre = "kINGSTON";
 Batman.Ciudad = "Gotica";
 Batman.PuedeVolar = false;
 Batman.IdentidadSecreta = "Antonio";
-Batman.SuperPoderes = new[] { "Bueno con pistola", "artes marciales", "cae con estilo" };
+List<SuperPoder> poderesBatman = new List<SuperPoder>();
+Batman.SuperPoderes.Add(PoderVolar);
+Batman.SuperPoderes.Add(SuperFuerza);
 
 
 
@@ -45,7 +43,11 @@ Flash.Nombre = "Flash";
 Flash.IdentidadSecreta = "No identificada";
 Flash.PuedeVolar= false;
 Flash.Ciudad = "New York";
-Flash.SuperPoderes = new[] { "corre muy rapido", "artes marciales" };
+List<SuperPoder> poderesSuperman = new List<SuperPoder>();
+Flash.SuperPoderes.Add(PoderVolar);
+Flash.SuperPoderes.Add(SuperFuerza);
+string resultSuperPoderes = Flash.UsarSuperPoder();
+Console.WriteLine(resultSuperPoderes);
 
 
 
@@ -58,6 +60,30 @@ class SuperHeroe
     public string Ciudad;
     public List<SuperPoder> SuperPoderes;
     public bool PuedeVolar;
+
+
+    public SuperHeroe() { 
+
+    Id = 1;
+    SuperPoderes = new List<SuperPoder>();
+        PuedeVolar = false;
+    
+    }
+
+    public string UsarSuperPoder() {
+
+        StringBuilder sb = new StringBuilder();
+        foreach (var item in SuperPoderes)
+        {
+
+            sb.AppendLine($"{Nombre} esta usando el super poder {item.Nombre}!!");
+        
+        }
+    
+    return sb.ToString();
+    
+    }
+
 
 }
 

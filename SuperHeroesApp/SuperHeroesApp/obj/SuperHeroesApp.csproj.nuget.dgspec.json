@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\agarcia\\Desktop\\curso VS\\SuperHeroesApp\\SuperHeroesApp\\SuperHeroesApp.csproj": {}
+    "C:\\Users\\agarcia\\Desktop\\Curso VS 1\\SuperHeroesApp\\SuperHeroesApp\\SuperHeroesApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\agarcia\\Desktop\\curso VS\\SuperHeroesApp\\SuperHeroesApp\\SuperHeroesApp.csproj": {
+    "C:\\Users\\agarcia\\Desktop\\Curso VS 1\\SuperHeroesApp\\SuperHeroesApp\\SuperHeroesApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agarcia\\Desktop\\curso VS\\SuperHeroesApp\\SuperHeroesApp\\SuperHeroesApp.csproj",
+        "projectUniqueName": "C:\\Users\\agarcia\\Desktop\\Curso VS 1\\SuperHeroesApp\\SuperHeroesApp\\SuperHeroesApp.csproj",
         "projectName": "SuperHeroesApp",
-        "projectPath": "C:\\Users\\agarcia\\Desktop\\curso VS\\SuperHeroesApp\\SuperHeroesApp\\SuperHeroesApp.csproj",
+        "projectPath": "C:\\Users\\agarcia\\Desktop\\Curso VS 1\\SuperHeroesApp\\SuperHeroesApp\\SuperHeroesApp.csproj",
         "packagesPath": "C:\\Users\\agarcia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agarcia\\Desktop\\curso VS\\SuperHeroesApp\\SuperHeroesApp\\obj\\",
+        "outputPath": "C:\\Users\\agarcia\\Desktop\\Curso VS 1\\SuperHeroesApp\\SuperHeroesApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\agarcia\\AppData\\Roaming\\NuGet\\NuGet.Config",

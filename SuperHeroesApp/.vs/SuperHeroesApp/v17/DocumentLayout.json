@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\agarcia\\Desktop\\curso VS\\SuperHeroesApp\\",
+  "WorkspaceRootPath": "C:\\Users\\agarcia\\Desktop\\Curso VS 1\\SuperHeroesApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE5A6D4F-D23F-4A0F-B9E2-A1D088C7AF27}|SuperHeroesApp\\SuperHeroesApp.csproj|c:\\users\\agarcia\\desktop\\curso vs\\superheroesapp\\superheroesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE5A6D4F-D23F-4A0F-B9E2-A1D088C7AF27}|SuperHeroesApp\\SuperHeroesApp.csproj|c:\\users\\agarcia\\desktop\\curso vs 1\\superheroesapp\\superheroesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE5A6D4F-D23F-4A0F-B9E2-A1D088C7AF27}|SuperHeroesApp\\SuperHeroesApp.csproj|solutionrelative:superheroesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\agarcia\\Desktop\\curso VS\\SuperHeroesApp\\SuperHeroesApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\agarcia\\Desktop\\Curso VS 1\\SuperHeroesApp\\SuperHeroesApp\\Program.cs",
               "RelativeDocumentMoniker": "SuperHeroesApp\\Program.cs",
-              "ToolTip": "C:\\Users\\agarcia\\Desktop\\curso VS\\SuperHeroesApp\\SuperHeroesApp\\Program.cs",
+              "ToolTip": "C:\\Users\\agarcia\\Desktop\\Curso VS 1\\SuperHeroesApp\\SuperHeroesApp\\Program.cs",
               "RelativeToolTip": "SuperHeroesApp\\Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAABEAAAApAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAADEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T13:46:36.055Z",
               "EditorCaption": ""
